@@ -9,7 +9,10 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <form id="form" action="results.html" method="GET" enctype="multipart/form-data">
+    <button class="addBookButton">
+        Add new book
+    </button>
+    <form id="form" action="results.html" method="GET" enctype="multipart/form-data" style="display:none">
         <div class="form-group"> 
             <label for="author">Author</label>
             <input type="text" name="author" id="author" required>
@@ -29,6 +32,7 @@
         <button type="button" id="btn">Create Account</button>
         <button type="reset">Reset</button>
     </form>
+    <div class="container"></div>
 </body>
 
 </html>
